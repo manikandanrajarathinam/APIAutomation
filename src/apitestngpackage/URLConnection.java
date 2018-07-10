@@ -14,7 +14,6 @@ public class URLConnection {
 	public static String getRequestURL(String APIURL,String RequestMethod,String entireResponse) {
 		try {
 			url = new URL(APIURL);
-
 			HttpURLConnection conn;
 
 			conn = (HttpURLConnection) url.openConnection();
