@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="element_value" value="Gallery"/>
+    <parameter name="boolean_check" value="CanRelist"/>
+    <parameter name="boolean_verify" value="false"/>
+    <parameter name="text_validation" value="2x larger image"/>
+    <parameter name="name" value="Name"/>
+    <parameter name="element_desc" value="Description"/>
+    <parameter name="check_parameter" value="Carbon credits"/>
+    <parameter name="element" value="Promotions"/>
+    <classes>
+      <class name="apitestngpackage.APITestNGFile">
+        <methods>
+          <include name="Testcase3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- apitestngpackage.APITestNGFile -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

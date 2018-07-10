@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5419" started-at="2018-07-08T14:10:09Z" finished-at="2018-07-08T14:10:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5419" started-at="2018-07-08T14:10:09Z" finished-at="2018-07-08T14:10:15Z">
+      <class name="apitestngpackage.APITestNGFile">
+        <test-method status="PASS" signature="Testcase1(java.lang.String, java.lang.String)[pri:1, instance:apitestngpackage.APITestNGFile@7c16905e]" name="Testcase1" duration-ms="5365" started-at="2018-07-08T14:10:09Z" finished-at="2018-07-08T14:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Carbon credits]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method status="PASS" signature="Testcase2(java.lang.String, boolean)[pri:2, instance:apitestngpackage.APITestNGFile@7c16905e]" name="Testcase2" duration-ms="4" started-at="2018-07-08T14:10:15Z" finished-at="2018-07-08T14:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CanRelist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase2 -->
+        <test-method status="PASS" signature="Testcase3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:apitestngpackage.APITestNGFile@7c16905e]" name="Testcase3" duration-ms="5" started-at="2018-07-08T14:10:15Z" finished-at="2018-07-08T14:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Promotions]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gallery]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Description]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2x larger image]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase3 -->
+      </class> <!-- apitestngpackage.APITestNGFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_171"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Manikandan/eclipse-workspace/Jarfile/java-json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Manikandan/eclipse-workspace/API_Automation/jarfiles/org.testng_6.14.2.r201802161450.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Manikandan/eclipse-workspace/API_Automation/jarfiles/com.beust.jcommander_1.72.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Manikandan/eclipse-workspace/API_Automation/jarfiles/java-json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Manikandan/eclipse-workspace/API_Automation/jarfiles/org.apache-extras.beanshell.bsh_2.0.0.b6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Manikandan/eclipse-workspace/API_Automation/jarfiles/org.yaml.snakeyaml_1.17.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

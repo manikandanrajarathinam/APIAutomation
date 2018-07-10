@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="name" value="Name" />
+		<parameter name="boolean_check" value="CanRelist" />
+		<parameter name="element" value="Promotions" />
+		<parameter name="element_value" value="Gallery" />
+		<parameter name="element_desc" value="Description" />
+		<parameter name="text_validation" value="2x larger image" />
+		<parameter name="check_parameter" value="Carbon credits" />
+		<parameter name="boolean_verify" value="true" />
+		<classes>
+			<class name="apitestngpackage.APITestNGFile" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
